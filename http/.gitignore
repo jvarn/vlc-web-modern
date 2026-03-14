@@ -1,0 +1,26 @@
+# Exclude original VLC http interface
+old_http/
+
+# Node modules
+node_modules/
+vlc-web-modern/node_modules/
+vlc-web-modern/dist/
+
+# Configuration and Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+dist/
+dist-ssr/
+*.local
+
+# Dotfiles and dot folders
+.*
+!.gitignore
+
+# macOS
+.DS_Store
